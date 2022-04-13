@@ -26,7 +26,7 @@ if(isset($_POST['search'])) {
 
         foreach ($files as $lines) {
             if (strlen($lines) > 3 && strpos($lines, '.txt') !== false) {
-                $fh = fopen('C:\xampp\htdocs\JASacademy\Exercise\file-google\files/' . $lines, 'r');
+                $fh = fopen('file-google/files/' . $lines, 'r');
 
                 while (!feof($fh)) {
                     $content = strtolower(fgets($fh));
