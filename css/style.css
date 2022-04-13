@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+}
+
+h1{
+    margin: 60px auto;
+    text-align: center;
+    font-size: 80px;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+form>#search{
+    width: 50rem;
+    height: 2rem;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form>#button{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#error{
+    color: red;
+    text-align: center;
+}
